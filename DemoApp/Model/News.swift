@@ -8,9 +8,9 @@
 
 import Foundation
 
-struct News {
+struct News : Codable {
     let title: String
     let source: String
-    let date: String
+    let publishedAt: Date
     let content: String
 }
