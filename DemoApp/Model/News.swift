@@ -12,5 +12,5 @@ struct News : Codable {
     let title: String
     let source: String
     let publishedAt: Date
-    let content: String
+    let content: String?
 }
